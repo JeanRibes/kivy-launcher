@@ -12,6 +12,7 @@ import traceback
 
 KIVYLAUNCHER_PATHS = os.environ.get("KIVYLAUNCHER_PATHS")
 
+print('hi')
 
 class Launcher(App):
     paths = ListProperty()
